@@ -1,0 +1,32 @@
+{
+  "name": "yagl",
+  "version": "0.0.1",
+  "description": "Library that creates a given label in all the repositories in a given organization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint --max-warnings 0 --config .eslintrc ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derberg/yagl.git"
+  },
+  "keywords": [
+    "github",
+    "labels"
+  ],
+  "author": "Lukasz Gornicki (@derberq)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derberg/yagl/issues"
+  },
+  "homepage": "https://github.com/derberg/yagl#readme",
+  "dependencies": {
+    "@octokit/graphql": "^4.5.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-sonarjs": "^0.5.0"
+  }
+}
